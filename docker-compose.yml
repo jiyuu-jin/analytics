@@ -1,0 +1,6 @@
+version: '3.6'
+services:
+  whoami:
+    image: containous/whoami
+    ports:
+      - "3333:80"

@@ -1,0 +1,10 @@
+displayName: Valist-Analytics
+
+type: middleware
+
+import: github.com/valist-io/analytics
+
+summary: "Test analytics service for valist IPFS cluster"
+
+testData:
+  Foo: Bar

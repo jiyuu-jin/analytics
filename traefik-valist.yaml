@@ -1,0 +1,22 @@
+pilot:
+  token: "45d0ad54-9606-494e-939f-4a58fc620f87"
+
+api:
+  dashboard: true
+  insecure: true
+
+experimental:
+  plugins:
+    analytics:
+      moduleName: github.com/jiyuu-jin/analytics
+      version: v0.0.1
+
+entrypoints:
+  http:
+    address: ":3334"
+    forwardedHeaders:
+      insecure: true
+
+providers:
+  file:
+    filename: rules-valist.yaml
