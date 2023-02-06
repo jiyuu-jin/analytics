@@ -6,7 +6,7 @@ http:
       middlewares:
         - my-plugin
       service: service-whoami
-      rule: Path(`/whoami`)
+      rule: PathPrefix(`/ipfs`)
 
   services:
     service-whoami:
